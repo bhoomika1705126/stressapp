@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load dataset
-df = pd.read_csv(r'C:\Users\hp\Desktop\project ml\dailyActivity_merged_cleaned.csv')
+df = pd.read_csv(r'dailyActivity_merged_cleaned.csv')
 
 # Select required features
 df = df[['TotalSteps', 'Calories', 'VeryActiveMinutes', 'FairlyActiveMinutes', 'LightlyActiveMinutes']]
